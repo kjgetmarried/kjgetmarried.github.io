@@ -4,35 +4,33 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="style/w3.css">
+<link rel="stylesheet" href="style/mystyle.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-<style>
-  body,h1,h2{font-family: "Raleway", sans-serif}
-  body, html {height: 100%}
-  p {line-height: 2}
-  .bgimg, .bgimg2 {
-    min-height: 100%;
-    background-position: center;
-    background-size: cover;
-  }
-  .bgimg {background-image: url("/img/barnpic.jpg")}
-  .bgimg2 {background-image: url("/img/internal.png")}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-   .google-maps {
-     position: relative;
-     padding-bottom: 75%; // This is the aspect ratio
-   height: 0;
-     overflow: hidden;
-   }
-
-  .google-maps iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100% !important;
-    height: 100% !important;
-  }
-</style>
 <body>
+
+<div class="topnav" id="myTopnav">
+  <a href="home.html" class="active">Home</a>
+  <a href="day.html">The Day</a>
+  <a href="venue.html">Venue Info</a>
+  <a href="accommodation.html">Accommodation</a>
+  <a href="gifts.html">Gifts/registry</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+</script>
 
 <!-- Header / Home-->
 <!--<header class="w3-display-container w3-wide bgimg w3-grayscale-min" id="home">-->
@@ -44,6 +42,7 @@
   </div>
 <!--  <link rel="icon" href="favicon.ico">-->
 </header>
+
 
 <!-- About  -->
 <div class="w3-container w3-padding-64 w3-large w3-text-grey" id="us" style="background-color: aliceblue">
