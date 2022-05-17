@@ -18,13 +18,15 @@ body {
 }
 
 p {line-height: 2}
-.bgimg, .bgimg2 {
+.bgimg, .bgimg2, bgimg3, bgimg4 {
     min-height: 80%;
     background-position: center;
     background-size: cover;
 }
 .bgimg {background-image: url("/img/barnpic.jpg")}
 .bgimg2 {background-image: url("/img/internal.png")}
+.bgimg3 {background-image: url("/img/nwich.jpg")}
+.bgimg4 {background-image: url("/img/beach.jpg")}
 
 .google-maps {
     position: relative;
