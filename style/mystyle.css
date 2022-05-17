@@ -19,7 +19,7 @@ body {
 
 p {line-height: 2}
 .bgimg, .bgimg2 {
-    min-height: 70%;
+    min-height: 80%;
     background-position: center;
     background-size: cover;
 }
