@@ -18,7 +18,7 @@ body {
 }
 
 p {line-height: 2}
-.bgimg, .bgimg2, bgimg3, bgimg4 {
+.bgimg, .bgimg2, .bgimg3, .bgimg4 {
     min-height: 80%;
     background-position: center;
     background-size: cover;
