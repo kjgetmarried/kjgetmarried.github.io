@@ -23,6 +23,11 @@ p {line-height: 2}
     background-position: center;
     background-size: cover;
 }
+.bgimg4 {
+    min-height: 80%;
+    background-position: center;
+    background-size: cover;
+}
 .bgimg {background-image: url("/img/barnpic.jpg")}
 .bgimg2 {background-image: url("/img/internal.png")}
 .bgimg3 {background-image: url("/img/nwich.jpg")}
